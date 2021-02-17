@@ -1,5 +1,7 @@
 # Turndown
 
+** This is a fork of the original project that depends on domino-ext (a domino form) which fixes problems in bundling.**
+
 [![Build Status](https://travis-ci.org/domchristie/turndown.svg?branch=master)](https://travis-ci.org/domchristie/turndown)
 
 Convert HTML into Markdown with JavaScript.

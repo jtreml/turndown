@@ -1,19 +1,19 @@
 {
-  "name": "turndown",
+  "name": "turndown-ext",
   "description": "A library that converts HTML to Markdown",
-  "version": "7.0.1",
-  "author": "Dom Christie",
+  "version": "7.0.2",
+  "author": "Jürgen Treml",
   "main": "lib/turndown.cjs.js",
   "module": "lib/turndown.es.js",
   "jsnext:main": "lib/turndown.es.js",
   "browser": {
-    "domino": false,
+    "domino-ext": false,
     "./lib/turndown.cjs.js": "./lib/turndown.browser.cjs.js",
     "./lib/turndown.es.js": "./lib/turndown.browser.es.js",
     "./lib/turndown.umd.js": "./lib/turndown.browser.umd.js"
   },
   "dependencies": {
-    "domino": "^2.1.6"
+    "domino-ext": "^2.1.4"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
@@ -36,7 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/domchristie/turndown.git"
+    "url": "https://github.com/jtreml/turndown.git"
   },
   "scripts": {
     "build": "npm run build-cjs && npm run build-es && npm run build-umd && npm run build-iife",
