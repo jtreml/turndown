@@ -1,7 +1,7 @@
 {
   "name": "turndown-ext",
   "description": "A library that converts HTML to Markdown",
-  "version": "7.0.2",
+  "version": "7.0.5",
   "author": "Jürgen Treml",
   "main": "lib/turndown.cjs.js",
   "module": "lib/turndown.es.js",
@@ -12,6 +12,7 @@
     "./lib/turndown.es.js": "./lib/turndown.browser.es.js",
     "./lib/turndown.umd.js": "./lib/turndown.browser.umd.js"
   },
+  "types": "lib/turndown.d.ts",
   "dependencies": {
     "domino-ext": "^2.1.4"
   },
